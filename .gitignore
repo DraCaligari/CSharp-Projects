@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider files
+.idea/
+
+# ASP.NET temporary files
+App_Data/
+App_Temp/
+
+# Logs and database files
+*.log
+*.tlog
+*.mdf
+*.ldf
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# DotNet tools
+.dotnet_tools/
+
+# JetBrains Rider & Resharper
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Publish and deployment
+publish/
+wwwroot/
+
+# Other
+node_modules/
+Thumbs.db
+Desktop.ini
+*.suo
+*.user
