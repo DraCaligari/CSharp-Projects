@@ -1,0 +1,14 @@
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.exe
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.deps.json
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.runtimeconfig.json
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.dll
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\bin\Debug\net9.0\TestProject.pdb
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfoInputs.cache
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.AssemblyInfo.cs
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.csproj.CoreCompileInputs.cache
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.dll
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\refint\TestProject.dll
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.pdb
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\TestProject.genruntimeconfig.cache
+D:\Documentos\Documentos\GitHub\c#\Llamada de metodos\CsharpProjects\TestProject\obj\Debug\net9.0\ref\TestProject.dll

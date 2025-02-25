@@ -1,0 +1,14 @@
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\bin\Debug\net9.0\Starter.exe
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\bin\Debug\net9.0\Starter.deps.json
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\bin\Debug\net9.0\Starter.runtimeconfig.json
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\bin\Debug\net9.0\Starter.dll
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\bin\Debug\net9.0\Starter.pdb
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.AssemblyInfoInputs.cache
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.AssemblyInfo.cs
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.csproj.CoreCompileInputs.cache
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.dll
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\refint\Starter.dll
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.pdb
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\Starter.genruntimeconfig.cache
+D:\Documentos\Documentos\GitHub\c#\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Starter\obj\Debug\net9.0\ref\Starter.dll
