@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Documentos\\GitHub\\c#\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {}
+    "D:\\Documentos\\Documentos\\GitHub\\CSharp-Projects\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Documentos\\GitHub\\c#\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {
+    "D:\\Documentos\\Documentos\\GitHub\\CSharp-Projects\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Documentos\\GitHub\\c#\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "D:\\Documentos\\Documentos\\GitHub\\CSharp-Projects\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "D:\\Documentos\\Documentos\\GitHub\\c#\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
+        "projectPath": "D:\\Documentos\\Documentos\\GitHub\\CSharp-Projects\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
         "packagesPath": "C:\\Users\\cfern\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Documentos\\GitHub\\c#\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\obj\\",
+        "outputPath": "D:\\Documentos\\Documentos\\GitHub\\CSharp-Projects\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cfern\\AppData\\Roaming\\NuGet\\NuGet.Config"
