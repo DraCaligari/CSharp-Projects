@@ -101,23 +101,132 @@
 //         break;
 // }
 
-int[] numbers = { 4, 8, 15, 16, 23, 42 };
-bool found = false;
-int total = 0;
+// int[] numbers = { 4, 8, 15, 16, 23, 42 };
+// bool found = false;
+// int total = 0;
 
-foreach (int number in numbers)
+// foreach (int number in numbers)
+// {
+//     total += number;
+
+//     if (number == 42)
+//     {
+//         found = true;
+//     }
+// }
+
+// if (found)
+// {
+//     Console.WriteLine("Set contains 42");
+// }
+
+// Console.WriteLine($"Total: {total}");
+
+
+// int employeeLevel = 200;
+// string employeeName = "John Smith";
+
+// string title = "";
+
+// switch (employeeLevel)
+// {
+//     case 100:
+//         title = "Junior Associate";
+//         break;
+//     case 200:
+//         title = "Senior Associate";
+//         break;
+//     case 300:
+//         title = "Manager";
+//         break;
+//     case 400:
+//         title = "Senior Manager";
+//         break;
+//     default:
+//         title = "Associate";
+//         break;
+// }
+
+// Console.WriteLine($"{employeeName}, {title}");
+
+// SKU = Stock Keeping Unit. 
+// SKU value format: <product #>-<2-letter color code>-<size code>
+// string sku = "01-MN-L";
+
+// string[] product = sku.Split('-');
+
+// string type = "";
+// string color = "";
+// string size = "";
+
+// if (product[0] == "01")
+// {
+//     type = "Sweat shirt";
+// } else if (product[0] == "02")
+// {
+//     type = "T-Shirt";
+// } else if (product[0] == "03")
+// {
+//     type = "Sweat pants";
+// }
+// else
+// {
+//     type = "Other";
+// }
+
+// if (product[1] == "BL")
+// {
+//     color = "Black";
+// } else if (product[1] == "MN")
+// {
+//     color = "Maroon";
+// } else
+// {
+//     color = "White";
+// }
+
+// if (product[2] == "S")
+// {
+//     size = "Small";
+// } else if (product[2] == "M")
+// {
+//     size = "Medium";
+// } else if (product[2] == "L")
+// {
+//     size = "Large";
+// } else
+// {
+//     size = "One Size Fits All";
+// }
+
+// Console.WriteLine($"Product: {size} {color} {type}");
+
+
+string sku = "01-MN-L";
+
+string[] product = sku.Split('-');
+
+string type = product[0] switch
 {
-    total += number;
+    "01" => "Sweat shirt",
+    "02" => "T-Shirt",
+    "03" => "Sweat pants",
+    _ => "Other"
+};
 
-    if (number == 42)
-    {
-        found = true;
-    }
-}
-
-if (found)
+string color = product[1] switch
 {
-    Console.WriteLine("Set contains 42");
-}
+    "BL" => "Black",
+    "MN" => "Maroon",
+    _ => "White"
+};
 
-Console.WriteLine($"Total: {total}");
+string size = product[2] switch
+{
+    "S" => "Small",
+    "M" => "Medium",
+    "L" => "Large",
+    _ => "One Size Fits All"
+};
+
+Console.WriteLine($"Product: {size} {color} {type}");
