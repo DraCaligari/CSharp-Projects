@@ -79,24 +79,45 @@
 // }
 
 
-string permission = "Admin|Manager";
-int level = 56;
+// string permission = "Admin|Manager";
+// int level = 56;
 
-switch (permission)
+// switch (permission)
+// {
+//     case string p when p.Contains("Admin") && level > 55:
+//         Console.WriteLine("Welcome, Super Admin.");
+//         break;
+//     case string p when p.Contains("Admin"):
+//         Console.WriteLine("Welcome, Admin.");
+//         break;
+//     case string p when p.Contains("Manager") && level > 20:
+//         Console.WriteLine("Contact an Admin for more information.");
+//         break;
+//     case string p when p.Contains("Manager"):
+//         Console.WriteLine("You don't have sufficient privileges.");
+//         break;
+//     default:
+//         Console.WriteLine("You don't have permission to change the settings.");
+//         break;
+// }
+
+int[] numbers = { 4, 8, 15, 16, 23, 42 };
+bool found = false;
+int total = 0;
+
+foreach (int number in numbers)
 {
-    case string p when p.Contains("Admin") && level > 55:
-        Console.WriteLine("Welcome, Super Admin.");
-        break;
-    case string p when p.Contains("Admin"):
-        Console.WriteLine("Welcome, Admin.");
-        break;
-    case string p when p.Contains("Manager") && level > 20:
-        Console.WriteLine("Contact an Admin for more information.");
-        break;
-    case string p when p.Contains("Manager"):
-        Console.WriteLine("You don't have sufficient privileges.");
-        break;
-    default:
-        Console.WriteLine("You don't have permission to change the settings.");
-        break;
+    total += number;
+
+    if (number == 42)
+    {
+        found = true;
+    }
 }
+
+if (found)
+{
+    Console.WriteLine("Set contains 42");
+}
+
+Console.WriteLine($"Total: {total}");
