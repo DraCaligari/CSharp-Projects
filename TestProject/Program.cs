@@ -48,32 +48,55 @@
 
 // Console.WriteLine(RandomNumber());
 
+// string permission = "Admin|Manager";
+// int level = 56;
+
+// if (permission.Contains("Admin"))
+// {
+//     if (level > 55)
+//     {
+//         Console.WriteLine("Welcome, Super Admin.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Welcome, Admin.");
+//     }
+// }
+// else if (permission.Contains("Manager"))
+// {
+//     if (level > 20)
+//     {
+//         Console.WriteLine("Contact an Admin for more information.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("You don't have sufficient privileges.");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("You don't have permission to change the settings.");
+// }
+
+
 string permission = "Admin|Manager";
 int level = 56;
 
-if (permission.Contains("Admin"))
+switch (permission)
 {
-    if (level > 55)
-    {
+    case string p when p.Contains("Admin") && level > 55:
         Console.WriteLine("Welcome, Super Admin.");
-    }
-    else
-    {
+        break;
+    case string p when p.Contains("Admin"):
         Console.WriteLine("Welcome, Admin.");
-    }
-}
-else if (permission.Contains("Manager"))
-{
-    if (level > 20)
-    {
+        break;
+    case string p when p.Contains("Manager") && level > 20:
         Console.WriteLine("Contact an Admin for more information.");
-    }
-    else
-    {
+        break;
+    case string p when p.Contains("Manager"):
         Console.WriteLine("You don't have sufficient privileges.");
-    }
-}
-else
-{
-    Console.WriteLine("You don't have permission to change the settings.");
+        break;
+    default:
+        Console.WriteLine("You don't have permission to change the settings.");
+        break;
 }
