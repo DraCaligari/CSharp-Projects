@@ -129,22 +129,63 @@
 //     validRange = true;
 // }
 
-Random random = new Random();
-int luck = random.Next(100);
+// Random random = new Random();
+// int luck = random.Next(100);
 
-string[] text = {"You have much to", "Today is a day to", "Whatever work you do", "This is an ideal time to"};
-string[] good = {"look forward to.", "try new things!", "is likely to succeed.", "accomplish your dreams!"};
-string[] bad = {"fear.", "avoid major decisions.", "may have unexpected outcomes.", "re-evaluate your life."};
-string[] neutral = {"appreciate.", "enjoy time with friends.", "should align with your values.", "get in tune with nature."};
+// string[] text = {"You have much to", "Today is a day to", "Whatever work you do", "This is an ideal time to"};
+// string[] good = {"look forward to.", "try new things!", "is likely to succeed.", "accomplish your dreams!"};
+// string[] bad = {"fear.", "avoid major decisions.", "may have unexpected outcomes.", "re-evaluate your life."};
+// string[] neutral = {"appreciate.", "enjoy time with friends.", "should align with your values.", "get in tune with nature."};
 
-TellFortune();
+// TellFortune();
 
-void TellFortune() 
-{
-    Console.WriteLine("A fortune teller whispers the following words:");
-    string[] fortune = (luck > 75 ? good : (luck < 25 ? bad : neutral));
-    for (int i = 0; i < 4; i++) 
+// void TellFortune() 
+// {
+//     Console.WriteLine("A fortune teller whispers the following words:");
+//     string[] fortune = (luck > 75 ? good : (luck < 25 ? bad : neutral));
+//     for (int i = 0; i < 4; i++) 
+//     {
+//         Console.Write($"{text[i]} {fortune[i]} ");
+//     }
+// }
+
+// CountTo(5);
+
+// void CountTo(int max)
+// {
+//     for (int i = 0; i < max; i++)
+//     {
+//         Console.Write($"{i}, ");
+//     }
+// }
+
+string[,] corporate =
     {
-        Console.Write($"{text[i]} {fortune[i]} ");
-    }
+        {"Robert", "Bavin"}, {"Simon", "Bright"},
+        {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+        {"Sarah", "Delucchi"}, {"Sinan", "Ali"}};
+
+string[,] external =
+{
+        {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+        {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+    };
+
+string externalDomain = "hayworth.com";
+
+for (int i = 0; i < corporate.GetLength(0); i++)
+{
+    DisplayEmail(first: corporate[i, 0], last: corporate[i, 1]);
+}
+
+for (int i = 0; i < external.GetLength(0); i++)
+{
+    DisplayEmail(first: external[i, 0], last: external[i, 1], domain: externalDomain);
+}
+
+void DisplayEmail(string first, string last, string domain = "contoso.com")
+{
+    string email = first.Substring(0, 2) + last;
+    email = email.ToLower();
+    Console.WriteLine($"{email}@{domain}");
 }
