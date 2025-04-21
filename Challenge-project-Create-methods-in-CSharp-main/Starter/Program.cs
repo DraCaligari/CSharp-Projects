@@ -66,46 +66,55 @@ void FreezePlayer()
     player = states[0];
 }
 
-// Reads directional input from the Console and moves the player
+
 void Move() 
 {
+    if (TerminalResized())
+    {
+        shouldExit = true;
+        return;
+    }
+
     int lastX = playerX;
     int lastY = playerY;
-    
-    switch (Console.ReadKey(true).Key) 
+
+    var key = Console.ReadKey(true).Key;
+
+    switch (key) 
     {
         case ConsoleKey.UpArrow:
             playerY--; 
             break;
-		case ConsoleKey.DownArrow: 
+        case ConsoleKey.DownArrow: 
             playerY++; 
             break;
-		case ConsoleKey.LeftArrow:  
+        case ConsoleKey.LeftArrow:  
             playerX--; 
             break;
-		case ConsoleKey.RightArrow: 
+        case ConsoleKey.RightArrow: 
             playerX++; 
             break;
-		case ConsoleKey.Escape:     
+        case ConsoleKey.Escape:     
             shouldExit = true; 
-            break;
+            return;
+        default:
+            shouldExit = true;
+            return;
     }
 
-    // Clear the characters at the previous position
     Console.SetCursorPosition(lastX, lastY);
     for (int i = 0; i < player.Length; i++) 
     {
         Console.Write(" ");
     }
 
-    // Keep player position within the bounds of the Terminal window
     playerX = (playerX < 0) ? 0 : (playerX >= width ? width : playerX);
     playerY = (playerY < 0) ? 0 : (playerY >= height ? height : playerY);
 
-    // Draw the player at the new location
     Console.SetCursorPosition(playerX, playerY);
     Console.Write(player);
 }
+
 
 // Clears the console, displays the food and player
 void InitializeGame() 
